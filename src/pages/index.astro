@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+---
+
+<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <section
+    class="container max-w-screen-xl mx-auto min-h-screen py-20 flex flex-col justify-center"
+  >
+    <div class="text-blue uppercase text-2xl font-semibold tracking-wide">
+      creative software engineer
+    </div>
+    <h1
+      class="text-white uppercase text-[104px] leading-[126px] font-bold py-4 tracking-wider"
+    >
+      Yaroslav <br /> Boiko
+    </h1>
+    <p class="font-serif leading-loose text-2xl text-white md:text-xl">
+      I'm focused on the best solutions, <br />
+      based in Kyiv, Ukraine.
+    </p>
+  </section>
+</BaseLayout>

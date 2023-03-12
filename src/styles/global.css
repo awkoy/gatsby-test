@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+}
+@layer components {
+  .article {
+    @apply min-h-full;
+  }
+
+  .btn {
+    @apply flex items-center text-white border-2 border-blue bg-slate-200;
+  }
+}
